@@ -1,0 +1,20 @@
+#include <string>
+using namespace std;
+
+std::string people_with_age_drink(int age) {
+  int child = 14;
+  int teens = 18;
+  int young = 21;
+    
+  if(age < child)
+    return "drink toddy";
+  else if(age < teens)
+    return "drink coke";
+  else if(age < young)
+    return "drink beer";
+  else
+    return "drink whisky";
+  
+  
+  
+}
