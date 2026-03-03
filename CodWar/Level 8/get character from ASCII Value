@@ -2,6 +2,9 @@ char get_char(int i) {
   return char(i);
  
 }
+
+//       OR 
+
 int getRealFloor(int f) {
   
 
