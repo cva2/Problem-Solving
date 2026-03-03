@@ -1,0 +1,3 @@
+ bool hero(int blt, int drg) {
+  return blt >= drg * 2 ? true : false;
+}
