@@ -1,0 +1,14 @@
+int mango(int qua, int pri)
+{
+    return (qua - qua / 3) * pri;
+}
+
+//          OR
+
+int mango(int qua, int pri)
+{
+  int fre = qua / 3;
+  int tqua = qua - fre;
+  int tpri = tqua * pri;
+    return tpri;
+}
