@@ -1,0 +1,4 @@
+int getRealFloor(int f) {
+  
+  return (f > 0 ? (f > 12 ? f - 2 : f - 1) : f);
+}
