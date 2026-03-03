@@ -1,0 +1,10 @@
+#include <vector>
+
+std::vector<int> invert(std::vector<int> val)
+{
+  for(int i = 0; i < val.size(); i++)
+  {
+    val[i] *= -1;
+  }
+  return val;
+}
