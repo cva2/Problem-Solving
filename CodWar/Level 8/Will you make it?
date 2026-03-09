@@ -1,5 +1,0 @@
-bool zero_fuel(uint32_t dTop, uint32_t mpg, uint32_t fl)
-{
-  return (mpg * fl >= dTop ? true : false);
-    // TODO
-}

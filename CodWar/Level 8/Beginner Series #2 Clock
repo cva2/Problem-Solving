@@ -1,8 +1,0 @@
-int past(int h, int m, int s) {
-  // your code here
-  int sumOfm = h * 60;
-  m += sumOfm;
-  int sumOfs = m * 60;
-  s += sumOfs;
-  return s * 1000;
-}
