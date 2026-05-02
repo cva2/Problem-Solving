@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta name="description" content="">
+  <title> 001 </title>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+
+
+  <p><br><br><br>
+    ------------------ 028
+    -----------------------------------------------------------------------------------------------------------------------
+    <br><br><br>
+  </p>
+
+
+
+  <form action="" method="get">
+    <div>
+      <label for="">Email</label>
+      <input type="email" value="anas@gmail.com" disabled> <!-- Not Sent! And Not Able To Edit -->
+    </div>
+    <br>
+    <div>
+      <label for="">Email</label>
+      <input type="email" value="anas@gmail.com" readonly> <!--  Sent! And Not Able To Edit -->
+    </div>
+    <div>
+      <label for="">Email</label>
+      <input type="email" value="anas@gmail.com" hidden> <!--  Sent! And Not Show! -->
+    </div>
+    <br>
+    <div>
+      <label>Username</label>
+      <input type="text" autofocus minlength="10">
+      <!-- autofocus => Ready To Writing | minlength => Min 10 Char as for Max-->
+    </div>
+    <br>
+    <div>
+      <label>Password</label>
+      <input type="password">
+    </div>
+    <br>
+    <input type="submit" value="Send">
+  </form>
+
+
+
+  <p><br><br><br>
+    ------------------ 029
+    -----------------------------------------------------------------------------------------------------------------------
+    <br><br><br>
+  </p>
+
+
+
+
+  <form action="">
+    <div>
+      <input type="radio" name="OS" value="Windows" checked id="wind"> <!-- Auto Select | id => Identifier -->
+      <label for="wind">Windows</label>
+    </div>
+    <div>
+      <input type="radio" name="OS" value="Mac" id="mac">
+      <label for="mac">Mac</label>
+    </div>
+    <div>
+      <input type="radio" name="OS" value="Linux" id="lin">
+      <label for="lin">Linux</label>
+    </div>
+
+    <hr>
+
+    <div>
+      <input id="wind" type="checkbox" name="OS" value="Windows" checked> <!-- Auto Select | id => Identifier -->
+      <label for="wind">Windows</label>
+    </div>
+    <div>
+      <input id="mac" type="checkbox" name="OS" value="Mac">
+      <label for="mac">Mac</label>
+    </div>
+    <div>
+      <input id="lin" type="checkbox" name="OS" value="Linux">
+      <label for="lin">Linux</label>
+    </div>
+  </form>
+
+
+  <p><br><br><br>
+    ------------------ 030
+    -----------------------------------------------------------------------------------------------------------------------
+    <br><br><br>
+  </p>
+
+
+  <form action="">
+    <div>
+      <label for="book">Choos:</label>
+      <select name="book" id="book">
+        <option value="book1">Book 1</option> <!-- Value => الحاجة الي هتوصل للمستقبل-->
+        <option value="book2">Book 2</option>
+        <option value="book3">Book 3</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <label for="book">Choose:</label>
+      <select name="book" id="book"> <!-- multiple => Can Select More Than 1 Using CTRL-->
+        <optgroup label="Islamic Books">
+          <option value="book1">Book 1</option> <!-- Value => الحاجة الي هتوصل للمستقبل-->
+          <option value="book2">Book 2</option>
+          <option value="book3">Book 3</option>
+        </optgroup>
+        <optgroup label="Gaming Books" multiline>
+          <option value="book4" selected>Book 4</option> <!-- Value => الحاجة الي هتوصل للمستقبل-->
+          <option value="book5">Book 5</option>
+          <option value="book6">Book 6</option>
+        </optgroup>
+      </select>
+      <br>
+      <hr><br>
+      ---------- OR From lec 032 -------------
+      <br><br>
+
+      <input list="prog" name="program">
+      <datalist id="prog">
+        <option value="C++">
+        <option value="C">
+        <option value="C#">
+        <option value="Python">
+        <option value="PHP">
+        <option value="JS">
+        <option value="Java">
+      </datalist>
+
+
+      <br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br>
+      
+      
+    </div>
+  </form>
+
+
+
+
+
+</body>
+
+</html>
